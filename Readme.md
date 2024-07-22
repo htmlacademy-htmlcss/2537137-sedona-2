@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/2/user/2537137).
+* Студент: [Анна Данюк](https://up.htmlacademy.ru/htmlcss-individual/2/user/2537137).
 * Наставник: `Неизвестно`.
 
 ---
