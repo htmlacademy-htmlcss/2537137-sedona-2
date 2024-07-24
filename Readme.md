@@ -2,7 +2,7 @@
 
 * Студент: [Анна Данюк](https://up.htmlacademy.ru/htmlcss-individual/2/user/2537137).
 * Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
-* Сайт:[Мой проект Седона][https://annadaniuk777.github.io/2537137-sedona-2/].
+* Сайт: [Мой проект Седона](https://annadaniuk777.github.io/2537137-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
