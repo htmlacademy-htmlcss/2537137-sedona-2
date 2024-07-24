@@ -2,7 +2,7 @@
 
 * Студент: [Анна Данюк](https://up.htmlacademy.ru/htmlcss-individual/2/user/2537137).
 * Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
-
+* Сайт:[Мой проект Седона][https://annadaniuk777.github.io/2537137-sedona-2/].
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
@@ -37,3 +37,6 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 <a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
 
 Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Профессиональная вёрстка сайтов](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
+
+
+[def]: https://annadaniuk777.github.io/2537137-sedona-2/
