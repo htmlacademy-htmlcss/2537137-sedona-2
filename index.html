@@ -4,12 +4,13 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_32x32.png">
     <title>Седона - городок в Аризоне</title>
   </head>
 
   <body>
     <div class="wrapper">
-      <header class="main-header">
+      <header class="main-header" data-test="header">
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
             <img class="header-logo" src="images/logo_navigation.svg" width="140" height="70"
@@ -54,13 +55,13 @@
           <a class="button navigation-button button-brown" href="#">Хочу сюда!</a>
         </nav>
       </header>
-      <main class="main-index main-container">
-        <section class="hero">
+      <main class="main-index main-container" data-test="main">
+        <section class="hero" data-test="hero">
           <h1 class="visually-hidden">Седона — небольшой городок в Аризоне</h1>
           <img class="hero-img" src="images/welcome_to_sedona.svg" width="458" height="352"
             alt="Welcome to gorgeous Sedona">
         </section>
-        <section class="advantages">
+        <section class="advantages" data-test="advantages">
           <h2 class="visually-hidden">Список преимуществ</h2>
           <p class="information">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
           <p class="features change-color">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -74,24 +75,24 @@
                 alt="Дом в городе Седона на фоне гор">
             </li>
             <li class="advantages-list-item light-background-color">
-              <div class="advantages-items-wrapper-2">
-                <h3 class="advantages-title advantages-light-2">Небольшая площадь</h3>
+              <div class="advantages-items-wrapper-two">
+                <h3 class="advantages-title advantages-light-two">Небольшая площадь</h3>
                 <p class="advantages-description change-color">Все достопримечательности находятся очень близко</p>
               </div>
             </li>
             <li class="advantages-list-item medium-background-color">
-              <div class="advantages-items-wrapper-2">
-                <h3 class="advantages-title advantages-light-2">Красивая дорога</h3>
+              <div class="advantages-items-wrapper-two">
+                <h3 class="advantages-title advantages-light-two">Красивая<br>дорога</h3>
                 <p class="advantages-description change-color">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
             </li>
             <li class="advantages-list-item light-background-color">
-              <div class="advantages-items-wrapper-2">
-                <h3 class="advantages-title advantages-light-2">Мало туристов</h3>
+              <div class="advantages-items-wrapper-two">
+                <h3 class="advantages-title advantages-light-two">Мало<br>туристов</h3>
                 <p class="advantages-description change-color">Большинство едет в Гранд Каньон и толпится там</p>
               </div>
             </li>
-            <li class="advantages-list-item dark-background-color advantages-list-item-2">
+            <li class="advantages-list-item dark-background-color advantages-list-item-two">
               <div class="advantages-items-wrapper">
                 <h3 class="advantages-title advantages-light">Там есть мост&nbsp;дьявола</h3>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -101,35 +102,37 @@
             </li>
           </ul>
         </section>
-        <section class="infrastructure">
+        <section class="infrastructure" data-test="service">
           <h2 class="visually-hidden">Инфраструктура</h2>
           <p class="information">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
           <p class="features change-color">Опытный персонал и качественное обслуживание!</p>
           <ul class="infrastructure-list">
             <li class="infrastructure-item medium-background-color">
               <h3 class="infrastructure-title title-icon house-icon">Жильё</h3>
-              <p class="infrastructure-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <p class="infrastructure-description">Рекомендуем пожить в&nbsp;настоящем мотеле, всё&nbsp;как&nbsp;в
+                кино!</p>
             </li>
             <li class="infrastructure-item white-background-color">
               <h3 class="infrastructure-title title-icon hamburger-icon">Еда</h3>
-              <p class="infrastructure-description">Всегда заказывайте топовый фирменный бургер, вы не
+              <p class="infrastructure-description">Всегда заказывайте топовый&nbsp;фирменный бургер, вы не
                 разочаруетесь!
               </p>
             </li>
             <li class="infrastructure-item  medium-background-color">
               <h3 class="infrastructure-title title-icon present-icon">Сувениры</h3>
-              <p class="infrastructure-description">Не только китайского, но и настоящего местного производства!</p>
+              <p class="infrastructure-description">Не только китайского, но&nbsp;и&nbsp;настоящего местного
+                производства!</p>
             </li>
           </ul>
         </section>
-        <section class="hotel-search">
+        <section class="hotel-search" data-test="search">
           <h2 class="information">Заинтересовались?</h2>
           <p class="features change-color">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
             гостиниц в
             Седоне</p>
           <a class="action-button button button-brown" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
         </section>
-        <section class="newsletter">
+        <section class="newsletter" data-test="subscribe">
           <h2 class="information">Подпишитесь на рассылку</h2>
           <p class="features">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -142,7 +145,7 @@
           </form>
         </section>
       </main>
-      <footer class="main-footer">
+      <footer class="main-footer" data-test="footer">
         <ul class="social-list">
           <li class="social-list-item">
             <a class="footer-social-link footer-button-icon vkontakte-icon" href="https://vk.com/htmlacademy">
@@ -211,12 +214,11 @@
     </div>
     <div class="modal-container modal-container-close">
       <div class="modal modal-hotel-search">
-        <button class="modal-close-button">
-          <svg width="14" height="14" aria-hidden="true" focusable="false" viewBox="0 0 15 15" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
+        <button class="modal-close-button" type="button">
+          <svg class="button-close" width="14" height="14" aria-hidden="true" focusable="false" viewBox="0 0 15 15"
+            fill="black" xmlns="http://www.w3.org/2000/svg">
             <path
-              d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z"
-              fill="black" />
+              d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z" />
           </svg>
           <span class="visually-hidden">Закрыть</span>
         </button>
@@ -224,31 +226,31 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group field-date">
-              <label class="date" for="start-date">Дата заезда:</label>
-              <input class="form-field-date" id="start-date" type="text" name="booking-date"
-                placeholder="27 апреля 2020">
+              <label class="date" for="start-date">Дата Заезда:</label>
+              <input class="form-field-date" id="start-date" type="text" name="booking-date-start"
+                value="27 апреля 2020" placeholder="Укажите дату" required>
               <span class="text warning">Мы не можем отправить вас в прошлое.</span>
             </p>
             <p class="field-group field-date">
-              <label class="date" for="end-date">Дата выезда:</label>
-              <input class="form-field-date" id="end-date" type="text" name="booking-date"
-                placeholder="1 сентября 2023">
+              <label class="date" for="end-date">Дата Выезда:</label>
+              <input class="form-field-date" id="end-date" type="text" name="booking-date-end" value="1 сентября 2023"
+                placeholder="Укажите дату" required>
               <span class="text">На эти даты есть свободные номера. Пока есть.</span>
             </p>
             <div class="field-group-wrapper">
               <p class="field-group group-quantity">
                 <label class="count-people count-adults" for="quantity-adults">Взрослые:</label>
-                <button class="minus-button" type="submit">
-                  <svg class="minus-button-svg" width="20" height="20" aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 9V11H17V9H3Z" fill="#000000" fill-opacity="0.3" />
+                <button class="minus-button button-edit-number" type="button">
+                  <svg class="button-svg" width="20" height="20" aria-hidden="true" focusable="false"
+                    viewBox="0 0 20 20" fill="#000000" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9V11H17V9H3Z" />
                   </svg>
                 </button>
-                <input class="people-quantity" id="quantity-adults" type="number" name="adults" placeholder="2">
-                <button class="plus-button" type="submit">
-                  <svg class="plus-button-svg"  width="20" height="20" aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="#000000" fill-opacity="0.3" />
+                <input class="people-quantity" id="quantity-adults" type="number" name="adults" value="2">
+                <button class="plus-button button-edit-number" type="button">
+                  <svg class="button-svg" width="20" height="20" aria-hidden="true" focusable="false"
+                    viewBox="0 0 20 20" fill="#000000" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
                   </svg>
                 </button>
               </p>
@@ -266,22 +268,22 @@
                       18 лет. Дети до 6 лет размещаются бесплатно.</span>
                   </span>
                 </span>
-                <button class="minus-button" type="submit">
-                  <svg class="minus-button-svg" width="20" height="20" aria-hidden="true" focusable="false"
+                <button class="minus-button button-edit-number" type="button">
+                  <svg class="button-svg" width="20" height="20" aria-hidden="true" focusable="false"
                     viewBox="0 0 20 20" fill="#000000" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 9V11H17V9H3Z" />
                   </svg>
                 </button>
-                <input class="people-quantity" id="quantity-kids" type="number" name="kids" placeholder="2">
-                <button class="plus-button" type="submit">
-                  <svg class="plus-button-svg" width="20" height="20" aria-hidden="true" focusable="false"
+                <input class="people-quantity" id="quantity-kids" type="number" name="kids" value="2">
+                <button class="plus-button button-edit-number" type="button">
+                  <svg class="button-svg" width="20" height="20" aria-hidden="true" focusable="false"
                     viewBox="0 0 20 20" fill="#000000" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
                   </svg>
                 </button>
               </p>
             </div>
-            <button class="modal-search button button-blue" type="button">Найти</button>
+            <button class="modal-search button button-blue" type="submit">Найти</button>
           </form>
         </section>
       </div>
